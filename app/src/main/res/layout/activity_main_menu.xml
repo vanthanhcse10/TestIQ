@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_menu"
+    tools:context="com.hcmut.testiq.activities.MainMenuActivity">
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hh"/>
+
+    <Button
+        android:id="@+id/btnStartTest"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_edittext_menu"
+        android:text="Start Test"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnDiscussion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext_menu"
+        android:text="Discussion"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnResults"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext_menu"
+        android:text="Results"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/rounded_edittext_logout"
+        android:text="Log Out" />
+
+</LinearLayout>

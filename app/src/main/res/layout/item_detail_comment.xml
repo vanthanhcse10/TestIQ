@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mr Name"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/txtContent"
+        android:text="Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"/>
+    <TextView
+        android:id="@+id/txtTime"
+        android:gravity="right"
+        android:text="13/5/2017"
+        android:textColor="#9E9E9E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
